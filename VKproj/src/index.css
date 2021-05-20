@@ -1,0 +1,104 @@
+.interface-block-enabled {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+.interface-block-disabled {
+    display: none;
+}
+
+.bandit-icon {
+    color: var(--button_primary_background);
+}
+
+.bandit-footer {
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    bottom: 0px;
+}
+
+.bandit-roulette-room-card-zindex {
+    width: 100%;
+}
+
+.bandit-roulette-room-card {
+    width: 100%;
+    margin-top: 7.777px;
+}
+
+.bandit-roulette-line {
+    position: absolute;
+    width: 2px;
+    background-color: var(--destructive);
+    height: 88px;
+    z-index: 100;
+}
+
+.bandit-roulette-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bandit-roulette-wrapper-list {
+    display: flex;
+}
+
+.bandit-menu-card {
+    background: var(--accent);
+    width: calc((100% - 2*8px)/3);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bandit-menu-ml {
+    margin-left: 8px;
+}
+
+.bandit-menu-icon {
+    margin-top: 19px;
+    color: var(--background_content);
+}
+
+.bandit-menu-card-blocks-container {
+    display: flex;
+    height: 70px;
+    padding-bottom: 0px;
+}
+
+.bandit-menu-card-titles-container {
+    display: flex;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.bandit-badge {
+    background-color: rgb(255, 51, 71);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+
+.bandit-scam-menu-bar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bandit-scam-counter {
+    font-size: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bandit-scam-counter-active {
+    background: var(--button_primary_background) !important;
+    color: var(--panel_tab_active_background) !important;
+}
